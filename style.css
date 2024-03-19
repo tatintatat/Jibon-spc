@@ -320,13 +320,12 @@ img {
     font-weight: 600;
     margin-bottom: 2rem;
   }
-  .client__card p{
-    font-weight: 300;
-    max-width: 20rem;
-    margin-bottom: 2rem;
+  .client__title p{
+    font-weight: 500;
+    
   }
   .client__card img{
-    background-color:transparent;
+    background-color:var(--gray);
     padding:1rem;
     border-radius: 1rem;
     display: flex;
@@ -334,13 +333,66 @@ img {
     justify-content: center;  
     align-items: center;
     text-align: center;
-    
-    
+    width:70rem;
+    max-width: 100%;
   }
   .client__wrapper{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap:2rem;
+  }
+  /* TRENDS */
+  .trends{
+    padding:5rem 0;
+  }
+  .trends__title{
+    text-align: center;
+  }
+  .trends__title h1{
+    font-size:6rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+  }
+  .trends__card img{
+    background-color:transparent;
+    padding:1rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    align-items: center;
+    width:100vh;
+  }
+  .trends__wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:2rem;
+  }
+  .trends__title p{
+    font-weight: 600;
+  }
+  .trends__card p{
+   text-align: center;
+  }
+  .trends__card{
+    background-color: transparent;
+    background-image:url(red.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .btn{
+    background-color: transparent;
+    border: transparent;
+    border-radius: 1rem;
+    padding: 1rem 2rem;
+    color: transparent;
+  }
+  .btn.bg--border-dark {
+    background-color: var(--light);
+    border: 1px solid var(--dark);
+    color: var(--dark);
   }
   /* DESIGN FOR JAVASCRIPT */
   .about__title li:first-child.open{
