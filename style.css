@@ -341,7 +341,7 @@ img {
     grid-template-columns: 1fr 1fr 1fr;
     gap:2rem;
   }
-  /* TRENDS */
+   /* TRENDS */
   .trends{
     padding:5rem 0;
   }
@@ -352,6 +352,11 @@ img {
     font-size:6rem;
     font-weight: 600;
     margin-bottom: 2rem;
+  }
+  .trends__card h2{
+    font-size: 4rem;
+    font-weight: 600;
+    color:var(--light);
   }
   .trends__card img{
     background-color:transparent;
@@ -370,24 +375,22 @@ img {
   }
   .trends__title p{
     font-weight: 600;
+    padding-bottom: 6rem;
   }
   .trends__card p{
    text-align: center;
+   padding:10px;
+   top:0;
+   font-size:2rem;
+   color:var(--light);
   }
   .trends__card{
     background-color: transparent;
-    background-image:url(red.jpg);
+    background-image:url(/img/Lebron\ latest\ trends.jpg);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
-  .btn{
-    background-color: transparent;
-    border: transparent;
-    border-radius: 1rem;
-    padding: 1rem 2rem;
-    color: transparent;
   }
   .btn.bg--border-dark {
     background-color: var(--light);
