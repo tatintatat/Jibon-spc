@@ -341,62 +341,151 @@ img {
     grid-template-columns: 1fr 1fr 1fr;
     gap:2rem;
   }
-   /* TRENDS */
-  .trends{
+   /* PROJECT */
+  .project{
     padding:5rem 0;
   }
-  .trends__title{
+  .project__title{
     text-align: center;
   }
-  .trends__title h1{
+  .project__title h1{
     font-size:6rem;
     font-weight: 600;
     margin-bottom: 2rem;
   }
-  .trends__card h2{
+  .project__card h2{
     font-size: 4rem;
     font-weight: 600;
     color:var(--light);
   }
-  .trends__card img{
-    background-color:transparent;
-    padding:1rem;
-    border-radius: 1rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;  
-    align-items: center;
-    width:100vh;
-  }
-  .trends__wrapper{
+
+  .project__wrapper{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap:2rem;
   }
-  .trends__title p{
+  .project__title p{
     font-weight: 600;
     padding-bottom: 6rem;
   }
-  .trends__card p{
+  .project__card p{
    text-align: center;
    padding:10px;
    top:0;
    font-size:2rem;
    color:var(--light);
+
   }
-  .trends__card{
+  .project__card{
     background-color: transparent;
     background-image:url(/img/Nature.jpg);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border-radius: 2rem;
+    text-align: center;
+    margin-bottom: 3rem;
+    background-size: 50vh;
+    height: 70vh;
+    text-align: end;
+    filter:brightness(70%);
   }
+  .btn{
+  background-color: transparent;
+  border: transparent;
+  border-radius: 1rem;
+  padding: 1rem 2rem;
+  color: transparent;
+}
   .btn.bg--border-dark {
     background-color: var(--light);
     border: 1px solid var(--dark);
     color: var(--dark);
   }
+  /* HIRE */
+  .hire{
+    padding:3rem 0;
+  }
+  .hire__wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  .hire__left h1{
+    font-size:6rem;
+    font-weight: 600;
+  }
+  .hire__right img{
+    border-radius: 4rem;
+  }
+  .hire__info{
+    padding-top:5rem;
+  }
+  .hire__nfo ul li{
+  padding-right:5rem;
+  }
+  .hire__info span{
+    display:flex;
+    border:2px solid lightgray;
+    border-radius:5px;
+    padding:2rem;
+    margin-bottom:2rem;
+  }
+  .hire__info li:nth-last-child(2) span{
+    align-items:center;
+    padding-bottom:7rem;
+  }
+  .hire__info ul li a{
+    transition:.3s ease;
+    display:flex;
+    justify-content:center;
+    width:20rem;
+    border-radius:1rem;
+    padding:2rem;
+    color:white;
+    background:rgb(56, 133, 56);
+  }
+  .hire__info ul li a:hover{
+    transition:.3s ease;
+    background:var(--dark);
+  }
+  /* FOOTER */
+.footer {
+  background: var(--dark);
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+.footer__left{
+  justify-content: center;
+}
+.footer__left img {
+  width:10rem;
+}
+.footer__nav ul.social li a {
+  font-size:2rem;
+  color:var(--gray);
+ }
+ .footer__nav .social {
+  display:flex;
+  gap:3rem;
+  justify-content: center;
+  align-items: center;
+  
+ }
+.footer__nav p {
+  font-weight: 200;
+  font-size: 2rem;
+  color:var(--light);
+  justify-content: right;
+  display:flex;
+}
+.btn.bg--border-gray {
+  background-color:transparent;
+  border: 0.5px solid var(--gray);
+  color: var(--gray);
+   border-radius: 50%;
+}
   /* DESIGN FOR JAVASCRIPT */
   .about__title li:first-child.open{
     color: var(--green);
